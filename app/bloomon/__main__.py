@@ -1,8 +1,8 @@
 import logging
 from simple_colors import *
 
-from app.bloomon.exceptions import EmptyDetailsException
-from app.bloomon.utils import ExtractedInput, BouquetService
+from bloomon.exceptions import EmptyDetailsException
+from bloomon.utils import ExtractedInput, BouquetService
 
 logging.basicConfig(
     format="%(levelname)s: %(asctime)s %(message)s", level=logging.DEBUG

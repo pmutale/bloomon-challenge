@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from simple_colors import *
 
-from app.bloomon import exceptions
+from bloomon import exceptions
 
 logger = logging.getLogger(__name__)
 

@@ -2,7 +2,7 @@ import unittest
 
 from mock import MagicMock, patch
 
-from app.bloomon.utils import BouquetService, BouquetData, ExtractedInput
+from bloomon.utils import BouquetService, BouquetData, ExtractedInput
 
 
 class BouquetServiceTest(unittest.TestCase):
