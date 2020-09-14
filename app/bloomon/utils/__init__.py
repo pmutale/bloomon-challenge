@@ -105,7 +105,7 @@ class BouquetService:
             (pd.DataFrame([self.bouquet.flowers]) / pd.DataFrame([self.bouquet.specifications])
              ).fillna(0).apply(int))
         output = f"{self.bouquet.name}{self.bouquet.size}{self._get_flower_details(flowers)}"
-        for _ in range(max(flowers)):
+        for _ in range(min(flowers, key=lambda x: x == 0)):
             print(output)
             return output
 
